@@ -1,0 +1,27 @@
+body {
+    margin: 1px;
+    padding: 0px;
+    border: 0px;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px; 
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.enlace {
+    width: 90px;
+    height: 70px;
+    display: flex;
+}
+
+.caja1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+   
