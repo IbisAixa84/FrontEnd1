@@ -5,62 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel="preconnect" href = "https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>PIZZA&FRONT</title>
 </head>
 <body>
+      <!-- cabecera del sitio -->
     <header>
-        <div class="div"> 
-            <img class="logo" src="img/logo_pizza.png" alt="logo pizza&front">
-            <nav>
-                 <ul class="enlace" type="none">
-                     <li><a href="/">Home</a></li>
-                     <li><a href="/">Ranking</a></li>
-                     <li><a href="/">Promoción</a></li>
-                     <li><a href="/">Contacto</a></li>
-                </ul>
-            </nav>
+        <div class="logo"> 
+            <img id="logo" src="img/logo_pizza.png" alt="logo pizza&front">
+            <p><span class="color-1"></span><span class="color-2"></span><span class="color-3"></span></p>
         </div>
-        <main>
-            <section>
-                <div class="caja-1">
-                    <h2>Envio gratis comprando 2 pizzas</h2>
-                    <img class="img_delivery" src="img/delivery.png" alt="imagen del delivery en la moto">
-                </div>
-            </section>
-            <section class="container_tercero">
-                <div class="subtitulo_segundo">
-                    <h2>Podio de pizzas</h2>
-                    <ul class="nav_body">
-                        <li class="podio" type="none" Pizzas top 5>
-                            <ol>
-                              <li>Muzzarella</li>
-                              <li>Hawaiana</li>
-                              <li>Muzzarella J&Morron</li>
-                              <li>Fugazzeta</li>
-                              <li>Calabresa</li>
-                            </ol>
-                        </li>
-                    </ul>
-                    <img class="img_pizza_falling" src="img/PizzaFalling.jpg"  alt="imagen de una pizza con muchos ingredientes">
-                </div>
-            </section>
-            <footer>
-                <div class="container_quinto"> 
-                    <nav class="nav_footer">
-                        <ul class="lista_footer" type="none">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/">Contacto</a></li>
-                            <li><a href="/">Ranking</a></li>
-                            <li><a href="/">Promoción</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="logo_segundo">
-                    <img class="logo" src="img/logo_pizza.png" alt="logo pizza&front">
-                </div>
-            </footer>
-        </main>
+        <ul class="nav-menu">
+            <li class="links">Home</li>
+            <li class="links">Ranking</li>
+            <li class="links">Promoción</li>
+            <li class="links">Contacto</li>
+        </ul>
     </header>
+    <!-- aqui comienza la sección principal del sitio -->
+    <section class="promotion-pizza">
+        <div class="promotion">
+            <h2><span class="color-3">Envio gratis</span><span class="color-2">comprando</span><span class="color-3">2 pizzas</span></h2>
+        </div>
+        <div class="podium">
+            <h2 class="color-3">Podio de pizzas</h2>
+            <ol class="top-5">
+                <h3>Pizzas top 5</h3>
+                <li>Muzzarella</li>
+                <li>Hawaiana</li>
+                <li>Muzzarella J&Morron</li>
+                <li>Fugazzeta</li>
+                <li>Calabresa</li>
+            </ol>
+            <img class="img-pizzaFalling" src="img/PizzaFalling.jpg"  alt="imagen de una pizza con muchos ingredientes">
+        </div>
+    </section>
+    <!-- comienza el footer -->
+    <footer>
+        <ul class="footer-menu">
+            <li class="links">Home</li>
+            <li class="links">Ranking</li>
+            <li class="links">Promoción</li>
+            <li class="links">Contacto</li>
+        </ul>
+            
+        <div class="footer-logo">
+            <img class="logo-footer" src="img/logo_pizza.png" alt="logo pizza&front">
+            <p><span class="color-1"></span><span class="color-2"></span></span><span class="color-3"></span></p>
+        </div>
+    </footer>
 </body>
 </html>
