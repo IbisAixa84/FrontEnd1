@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --back-color: #E5E5E5;
+    --principal-color: #D1891C;
+    --color-tipografia: black;
+    --color-1: #00669F;
+    --color-2: #F3F3F3;
+    --color-3: #FFFFFF;
+
+}
