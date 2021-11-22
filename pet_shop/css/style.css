@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
     font-family: "Roboto", sans-serif;
     --buttom-color: #8a8787;
     --font-2-color: #a0a0a0;
@@ -14,27 +15,36 @@
     
   }
   
-  /* Estido del div */
-  
-  .div {
-    background-color: var(--second-color);
-    height: 20px;
-    width: 100%;
+  /* Estido del top */
+   
+  .top {
+    background-color: var(--bottom-color);
     color: var(--font-1-color);
-    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-weight: 400;
     font-size: 10px;
-    align-items: center;
+    height: 30px;
+    width: 100%;
+   
   }
   
-  ul.primera_lista {
+  ul.top-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+
+  ul.primera-lista {
     display: flex;
     justify-content: space-between;
     margin: 0 50px 0 90px;
     list-style: none;
   }
   
-  ul.segunda_lista {
+  ul.segunda-lista {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -365,3 +375,94 @@
     justify-content: center;
     align-items: center;
   }
+
+  /*reponsive for moviles*/
+
+  @media (max-width: 480px) { 
+      /* style top */
+
+    ul.top-list {
+      margin: 0 15px 0 15px;
+    }   
+
+  /* style seccion */
+  
+  .checkbtn {
+    display: block;
+    color: var(--font-1-color);
+    cursor: pointer;
+  }
+
+  /* Nav bar styles */
+ 
+  .nav-list {
+    background-color: var(--main-color);
+    flex-direction: column;
+    align-self: flex-start;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    margin-top: 54px;
+    width: 150px;
+    height: 150px;
+    left: -200px;
+  }
+
+  #check:checked ~ .nav-list {
+    left: 300px;
+  }
+
+  .main-text p {
+    color: black;
+    font-weight: bold;
+  }
+
+   /* Main style */
+
+   .main-section h3 {
+    width: 271px;
+    text-align: center;
+  }
+
+
+  .cards-section {
+   flex-direction: column;
+   align-items: center;
+ }
+  
+ .input-form {
+  font-size: 9px;
+  width: 298px;
+ }
+
+ .btn {
+  width: 199px;
+  height: 45px;
+  border-radius: 25px;
+ }
+
+ /* Subscription styles */
+
+ .subsc {
+  flex-direction: column;
+  width: 100%;
+  height: 101px;
+
+ }
+
+ .foot-img {
+  display: flex;
+  justify-content: space-between;
+  color: var(--font-1-color);
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+ }
+
+ img.logo {
+  position: relative;
+  top: 9px;
+  right: calc(50% - 70px);
+  margin-bottom: 15px;
+ }
+}

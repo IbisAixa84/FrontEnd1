@@ -5,55 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/8d37f192d6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d37f192d6.js" crossorigin="anonymous"></script>
     <title>Petshops<nt</title>
 </head>
 <body>
-    <div class="div">
+    <div class="conteiner">
 
-        <ul class="primera_lista">
-            <li>Grandes ofertas en comederos</li>
-            <ul class="segunda_lista">
-                <li>
-                    <form action="" class="list-3">
-                        <label for="idioma"></label>
-                        <select name="idioma" class="estilo-1">
-                            <option value="espanol">Español</option>
-                            <option value="ingles">Ingles</option>
-                        </select>
-                    </form>
-                </li>
+        <!-- Top de la pagina -->
 
-                <li>
-                    <form action="" class="tercera_lista">
-                        <label for="peso"></label>
-                        <select name="peso" class="estilo-1">
-                            <option value="arg">ARG$</option>
-                            <option value="dolar">USD$</option>
-                        </select>
-                    </form>
-                </li>
-
+        <div class="top">
+            <p>Grandes ofertas en comederos</p>
+            <ul class="top-list">
+                <li>Español</li>
+                <li>ARG$</li>
             </ul>
 
-        </ul>
-    </div>
+        </div>
 
     <!-- encabezado -->
 
     <header class="header">
         <nav class="nav-header">
             <img src="img/Logo.png" alt="muestra el logo del pet_shop" class="logo">
+            <input type="checkbox" name="checkbtn" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars fa-2x"></i>
+            </label>
             <ul class="nav-list">
                 <li type="none"><i class="fas fa-paw paw"></i>Categorías</li>
                 <li type="none"><i class="fas fa-paw paw"></i>Pets</li>
                 <li type="none"><i class="fas fa-paw paw"></i>Nosotros</li>
                 <li type="none"><i class="fas fa-paw paw"></i>Contáctanos</li>
             </ul>
-        </nav>
+        </nav>        
     </header>
     <main>
 
@@ -68,7 +55,7 @@
         </div>
 
         <!-- Seccion principal -->
-
+        
         <section class="main-section">
             <i class="fas fa-paw fa-5x paw-gde"></i>
             <h2>Productos Destacados</h2>
@@ -79,6 +66,7 @@
                 <li type="none">-</li>
                 <li type="none">Comida</li>
             </ul>
+        
             <section class="cards-section">
                 <div class="card">
                     <img src="img/churrasquito.png" alt="imagen de alimento para mascota">
@@ -125,7 +113,7 @@
             <p>Suscríbete para más novedades</p>
         </div>
         <form class="subs-form">
-            <input class="email-2" type="email" placeholder="icono de correo electrónico">
+            <input class="email-2" type="email" placeholder="">
             <button class="submit-2" type="submit">Suscribirme</button>
         </form>
     </div>
