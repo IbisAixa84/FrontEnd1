@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    --discout-color: #1CD1B0;
+    --back-color: #E5E5E5;
+    --principal-color: #D1891C;
+    --color-tipografia: black;
+    --color-1: #00669F;
+    --color-2: #F3F3F3;
+    --color-3: #FFFFFF;
+    --color-menu: #001D2D;
+
+}
+
+/* Top section styles */
+
+.discout{
+    background-color: var(--discout-color);
+    color: #000000;
+    font-size: 13px;
+    height: 23px;
+    width: 100vw;
+    padding: 3px 20px;
+}
+
+.header { 
+    background-image: url('../img/logo\ 1.png');
+    background-repeat: no-repeat;
+    background-color: var(--color-1);
+    height: 80px;
+    width: 100vw;
+    padding: 27px 20px;
+    
+   
+}
+
+.title-h2 {
+    color: var(--color-3);
+    padding: 120px;
+    width: 100vw;
+}
+
+body {
+    background-color:  #FFFFFF;
+    height: 900px;
+    width: 100vh; 
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 62px;
+    font-family: "Inter", sans-serif;
+    padding-top: 100px;
+    padding-left: 215px;
+    
+    
+}
+
+form{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column ;
+    padding-left: 410px;
+}
+
+
+.items {
+    padding: 17px 100px 17px 10px;
+    margin-top: 15px;
+    font-family: "Karla", sans-serif;
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.entrar {
+    background-color: #1CD1B0;
+    padding: 5px 70px 5px 70px;
+    margin-top: 52px;
+    font-family: "Karla", sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 23px;
+    text-align: center;
+    
+}
+
+
+
+footer {
+    background-color: #00669F;
+    height: 61px;
+    width: 100vw;
+    padding: 21px 552px 21px 300px;
+    
+}
+
+.footer-txt {
+    color: #FFF9F9;
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    
+}
+
+.cuenta {
+    margin: 20px;
+    padding-left: 82px;
+    padding-bottom: 140px;
+    font-family: "Karla", sans-serif;
+    font-size: 21px;
+    color:  #222222;
+}
+
+.ingresa-color {
+    color: blue;
+    width: 100vh;
+}
